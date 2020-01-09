@@ -11,8 +11,8 @@
                     L'asso
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item perso_colorRoseMenu" href="#">Action</a>
-                    <a class="dropdown-item perso_colorRoseMenu" href="#">Another action</a>
+                    <a class="dropdown-item perso_colorRoseMenu" href="../Global/association.php">Qui sommes-nous ?</a>
+                    <a class="dropdown-item perso_colorRoseMenu" href="../Global/partenaires.php">Partenaires</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

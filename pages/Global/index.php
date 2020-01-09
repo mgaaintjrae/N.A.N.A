@@ -1,42 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include("../Commons/header.php") ?>
+<h2 class="text-center mt-3 perso_colorRoseMenu perso_policeTitre perso_textShadow">Ils ont besoin de vous !</h2>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Copse&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-    <div class="container p-0 mt-2 rounded perso_shadow">
-        <header class="bg-dark text-white rounded-top perso_policeTitre perso_shadow">
-            <div class="row align-items-center m-0">
-                <div class="col-2 p-2 text-center">
-                    <a href="index.php">
-                        <img src="../../sources/images/Autres/logoNANA2.jpg" class="rounded-circle img-fluid perso_logoSize" alt="logo du site">
-                    </a>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+    </ol>
+    <div class="carousel-inner">
+        <!-- Début d'un ITEM -->
+        <div class="carousel-item active">
+            <div class="row no-gutters boder rounded overflow-hidden mb-4">
+                <div class="col-12 col-md-auto text-center">
+                    <img src="../../sources/images/Animaux/Chats/Framboise/Framboise.jpg" style="height:250px;" class="" alt="Photo de Framboise">
                 </div>
-                <div class="col-8 m-0 p-0">
-                    <?php include("../Commons/menu.php")?>
-                </div>
-                <div class="col-2 text-right pt-1 pr-4 d-none d-lg-block">
-                    N.A.N.A <br /> Clermont (09)
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3>Framboise</h3>
+                    <div>02/2019</div>
+                    <p>
+                        Description de Framboise
+                    </p>
+                    <a href="" class="btn btn-primary">Visiter ma page</a>
                 </div>
             </div>
-        </header>
+
+        </div>
+        <!-- Fin d'un ITEM -->
+        <!-- Début d'un ITEM -->
+        <div class="carousel-item">
+            <div class="row no-gutters boder rounded overflow-hidden mb-4">
+                <div class="col-12 col-md-auto text-center">
+                    <img src="../../sources/images/Animaux/Chats/Framboise/Framboise.jpg" style="height:250px;" class="" alt="Photo de Framboise">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h3>Framboise</h3>
+                    <div>02/2019</div>
+                    <p>
+                        Description de Framboise
+                    </p>
+                    <a href="" class="btn btn-primary">Visiter ma page</a>
+                </div>
+            </div>
+        </div>
+        <!-- Fin d'un ITEM -->
+
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+        <span class="sr-only ">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="../../bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+<?php include("../Commons/footer.php") ?>
