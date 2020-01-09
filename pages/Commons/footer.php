@@ -1,10 +1,10 @@
-</div>
+</div><!-- Fin balise contenu du site -->
 
 <!-- Footer du site -->
 <footer class="bg-dark text-center text-white rounded-bottom perso_shadow">
     <p class="p-2">&copy; Association N.A.N.A 2018-2019</p>
 </footer>
-</div>
+</div><!-- Fin de container body -->
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
