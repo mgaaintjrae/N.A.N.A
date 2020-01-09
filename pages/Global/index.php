@@ -1,6 +1,7 @@
-<?php include("../Commons/header.php") ?>
-<h2 class="text-center mt-3 perso_colorRoseMenu perso_policeTitre perso_textShadow">Ils ont besoin de vous !</h2>
+<?php include("../Commons/header.php");
 
+echo styleTitreNiveau1("Ils ont besoin de vous !", COLOR_ASSO);
+?>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
@@ -56,12 +57,19 @@
 
 <div class="row">
     <div class="col-6 mt-3">
-        <h2 class="text-center mt-3 perso_colorVertMenu perso_policeTitre perso_textShadow"><img src="../../sources/images/Autres/icones/journal.png" alt="logo News" />
-            Nouvelles des adoptés</h2>
+        <?php
+        $txt = "<img src='../../sources/images/Autres/icones/journal.png' alt='logo News' />
+            Nouvelles des adoptés";
+
+        echo styleTitreNiveau2($txt, COLOR_ACTUS); ?>
+
     </div>
     <div class="col-6 mt-3">
-        <h2 class="text-center mt-3 perso_colorOrangeMenu perso_policeTitre perso_textShadow"><img src="../../sources/images/Autres/icones/action.png" alt="logo Action" />
-            Evénements et Actions</h2>
+        <?php
+        $txt = "<img src='../../sources/images/Autres/icones/action.png' alt='logo Action' />
+            Evénements et Actions";
+
+        echo styleTitreNiveau2($txt, COLOR_PENSIONNAIRE); ?>        
     </div>
 </div>
 <div class="row">

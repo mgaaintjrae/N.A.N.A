@@ -1,5 +1,6 @@
-<?php include("../Commons/header.php") ?>
-<h2 class="text-center mt-3 perso_colorRoseMenu perso_policeTitre perso_textShadow">Les partenaires</h2>
+<?php include("../Commons/header.php"); ?>
+
+<?php echo styleTitreNiveau1("Les partenaires", COLOR_ASSO) ?>
 
 <div class="row no-gutters">
     <div class="card col-auto mx-auto mt-3" style="width: 18rem;">
@@ -36,4 +37,8 @@
     </div>
 </div>
 
-<?php include("../Commons/footer.php") ?>
+<?php 
+
+include("../Commons/footer.php") 
+
+?>

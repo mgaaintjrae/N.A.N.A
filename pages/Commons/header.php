@@ -1,3 +1,8 @@
+<?php
+include("../../utile/formatage.php");
+include("../../utile/config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
