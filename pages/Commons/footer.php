@@ -1,7 +1,7 @@
 </div><!-- Fin balise contenu du site -->
 
 <!-- Footer du site -->
-<footer class="bg-dark text-center text-white rounded-bottom perso_shadow">
+<footer class="bg-dark text-center text-white rounded-bottom">
     <p class="p-2">&copy; Association N.A.N.A 2018-2019</p>
 </footer>
 </div><!-- Fin de container body -->
